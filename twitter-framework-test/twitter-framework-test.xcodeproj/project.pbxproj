@@ -18,6 +18,7 @@
 		18A4F0A61735189400A89C08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F0A51735189400A89C08 /* Default-568h@2x.png */; };
 		18A4F0A91735189400A89C08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F0A81735189400A89C08 /* ViewController.m */; };
 		18A4F0AC1735189400A89C08 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F0AA1735189400A89C08 /* ViewController.xib */; };
+		18A4F0B317351BF900A89C08 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A4F0B217351BF900A89C08 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		18A4F0A71735189400A89C08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18A4F0A81735189400A89C08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18A4F0AB1735189400A89C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18A4F0B217351BF900A89C08 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A4F0B317351BF900A89C08 /* Social.framework in Frameworks */,
 				18A4F0901735189400A89C08 /* UIKit.framework in Frameworks */,
 				18A4F0921735189400A89C08 /* Foundation.framework in Frameworks */,
 				18A4F0941735189400A89C08 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		18A4F08E1735189400A89C08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18A4F0B217351BF900A89C08 /* Social.framework */,
 				18A4F08F1735189400A89C08 /* UIKit.framework */,
 				18A4F0911735189400A89C08 /* Foundation.framework */,
 				18A4F0931735189400A89C08 /* CoreGraphics.framework */,
@@ -263,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "twitter-framework-test/twitter-framework-test-Prefix.pch";
 				INFOPLIST_FILE = "twitter-framework-test/twitter-framework-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "twitter-framework-test/twitter-framework-test-Prefix.pch";
 				INFOPLIST_FILE = "twitter-framework-test/twitter-framework-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
